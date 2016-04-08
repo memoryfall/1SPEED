@@ -1,0 +1,53 @@
+.pagetitle{
+	white-space:nowrap;
+	font-weight: bold;
+	font-family:"SketchFlow Print",Georgia,Serif;
+	font-size: 40px;
+	color:red;
+}
+
+#logo{
+	text-align: center;
+	white-space:nowrap;
+	font-weight: bold;
+	font-family:"SketchFlow Print",Georgia,Serif;
+	font-size: 30px;
+	color:red;
+}
+
+#langu{
+	text-align: center;
+	white-space:nowrap;
+	font-weight: bold;
+	font-family:"SketchFlow Print",Georgia,Serif;
+	font-size: 30px;
+	color:red;
+}
+
+#navtab li a{
+	white-space:nowrap;
+	font-weight: bold;
+	font-family:"SketchFlow Print",Georgia,Serif;
+	font-size: 30px;
+	color:red;
+}
+
+#donate p{
+	line-height:2;
+	text-align: center;
+	white-space:nowrap;
+	font-weight: bold;
+	font-family:"SketchFlow Print",Georgia,Serif;
+	font-size: 30px;
+	color:blue;
+}
+#donate a,#donate{
+	line-height:2;
+	text-align: center;
+	white-space:nowrap;
+	font-weight: bold;
+	font-family:"SketchFlow Print",Georgia,Serif;
+	font-size: 20px;
+	color:red;
+}
+

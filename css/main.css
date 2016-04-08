@@ -1,4 +1,189 @@
-nav.div
+/**
+ * 
+ */
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: "#96CDCD";
+}
+/**
+ * 导航栏和底部页脚css
+ */
+nav{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 10%;
+}
+nav div{
+	display:inline;
+}
+#logo{
+	margin: auto;
+	padding-top: 2%;
+	height: 100%;
+	width: 15%;
+}
+#navtab{
+	background-color: black;
+	padding-top: 2%;
+	margin: 0px;
+	height: 100%;
+	width: 70%;
+}
+#navtab li{
+	list-style-type:none;
+	width: 22%;
+	height: 100%;
+}
+#langu{
+	background-color: black;
+	position: relative;
+	margin: auto;
+	padding-top: 2%;
+	height: 100%;
+	width: 15%;
+}
+
+
+footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width: 100%;
+	height: 10%;
+}
+footer address{
+	width: 60%;
+	height: 100%;
+	margin: 0px;
+	background-color: black;
+	float: left;
+	display: inline;
+}
+footer address p{
+	margin: 20px 30px;
+	float: left;
+	display: inline;
+}
+footer div{
+	width: 40%;
+	height: 100%;
+	margin: 0px;
+	float: left;
+	display: inline;
+}
+footer div p{
+	margin: 20px 30px;
+	float: left;
+	display: inline;
+}
+footer div ul{
+	float: left;
+	display: inline;
+}
+footer div ul li{
+	margin: 20px 30px;
+	width: 100px;
+	height: 80%;
+	float: left;
+	display: inline;
+}
+
+/**
+ * 内容CSS
+ */
+.tab-content{
+	position: fixed;
+	top: 10%;
+	bottom: 10%;
+	left:0px;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0%;
+}
+.tab-pane{
+}
+.pagetitle{
+	padding-left: 5%;
+	margin: 0px;
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+.pagerow{
+	position: relative;
+	margin: 0px;
+}
+
+
+.rblock
 {
-	display:inline
+	position: relative;
+	float: left;
+	display: inline;
+	height: 550px;
+	width: 22%;
+	min-width: 250px;
+	margin: 20px;
+}
+#giveinfo{
+	margin: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+#hp1
+{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	margin: 5px 5px;
+	background-color: blue;
+}
+#hp2
+{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	margin: 5px 5px;
+	background-color: black;
+}
+#news
+{
+	position: relative;
+	width: 100%;
+	height: 30%;
+	margin: 5px 5px;
+	background-color: blue;
+}
+.adtable
+{
+	position: relative;
+	margin: 5px 5px;
+	width: 100%;
+	height: 70%;
+}
+
+.ad{
+	padding: 5px 5px;
+}
+
+#donate{
+	margin: 5px;
+}
+#donatead{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	margin: 5px 5px;
+	background-color: yellow;
+}
+}
+#donate p{
+}
+#donate a{
 }
